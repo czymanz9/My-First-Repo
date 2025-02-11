@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <header>
+            <h2>Gaming Survey</h2>
+            <p>Please provide your feedback!</p>
+        </header>
+
+        <main>
+            <form>
+                <label for="name">Full name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <h4>How satisfied are you with the game?</h4>
+                <label for="satisfied">Satisfied</label>
+                <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+                <label for="neutral">Neutral</label>
+                <input type="radio" id="neutral" name="satisfaction" value="neutral">
+                <label for="unsatisfied">Unsatisfied</label>
+                <input type="radio" id="unsatisfied" name="satisfaction" value="unsatisfied">
+
+                <h4>What factors influence your decision to purchase the game?</h4>
+                <input type="checkbox" id="reviews" name="reviews">
+                <label for="reviews">Reviews</label>
+                <input type="checkbox" id="trailer" name="trailer">
+                <label for="trailer">Trailers</label>
+                <input type="checkbox" id="other" name="other">
+                <label for="other">Other</label>
+                
+                <h4>What is your favorite role in the game?</h4> 
+                <select id="role" name="role">
+                    <option value="duelist">Duelist</option>
+                    <option value="controller">Controller</option>
+                    <option value="initiator">Initiator</option>
+                    <option value="sentinel">Sentinel</option>
+                </select>
+
+                <h4>Is there anything else you'd like to share about your gaming experiences or preferences?</h4>
+                <textarea id="message" name="message"></textarea>
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+</html>
