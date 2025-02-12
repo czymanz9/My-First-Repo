@@ -1,0 +1,35 @@
+body {
+    display: flex;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background-color: #ffcc00;
+    height: 150px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    background-color: #9b59b6;
+    height: 300px;
+    width: 300px;
+}
+
+section {
+    background-color: #1abc9c;
+    height: 300px;
+    width: 876px;
+}
+
+footer {
+    display: flex;
+    background-color: #e74c3c;
+    height: 100px;
+}
