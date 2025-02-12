@@ -76,7 +76,7 @@ th, td {
 }
 
 th {
-    background: #b570c0; /* Dark blue header */
+    background: #b570c0; 
     color: rgb(39, 6, 52);
     font-weight: bold;
 }
@@ -103,7 +103,25 @@ form {
     margin: 20px 0 30px 0;
 }
 
-input, label, textarea {
-    margin: auto;
-    
+input[type="submit"] {
+    background: #4CAF50; 
+    color: rgb(233, 238, 244); 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #38933d; 
+}
+
+footer{
+    background: linear-gradient(#a4c8f1, #e979e0);
+    color: rgb(12, 33, 79);
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(188, 166, 236);
+    border: 3px solid rgb(104, 10, 46);
+    border-radius: 5px;
 }
