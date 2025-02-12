@@ -1,14 +1,54 @@
  *{
-    background-color: rgb(186, 215, 238);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3px;
     margin: 5px;
  }
+
+ body{
+    background-color: #c5e8f4;
+ }
  h2{
    font-size: 56px;
- }
- header{
-  background-image: linear-gradient(rgba(249, 13, 13, 0.5), rgba(245, 253, 0, 0.5));
+   color: #790f64;
  }
 
+ header {
+  background: linear-gradient(#a4c8f1, #e979e0);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(188, 166, 236);
+  border: 3px solid rgb(104, 10, 46);
+  border-radius: 10px;
+}
 
+ nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #790f64;
+}
+
+.about{
+  background-color: rgb(166, 172, 236);
+  line-height: 1;
+  border: 3px solid rgb(104, 10, 46);
+  border-radius: 10px;
+}
+
+.project{
+  background-color: rgb(188, 166, 236);
+  border: 3px solid rgb(104, 10, 46);
+  border-radius: 10px;
+}
