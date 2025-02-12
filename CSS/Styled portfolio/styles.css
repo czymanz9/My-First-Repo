@@ -2,53 +2,108 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3px;
     margin: 5px;
- }
-
- body{
-    background-color: #c5e8f4;
- }
- h2{
-   font-size: 56px;
-   color: #790f64;
- }
-
- header {
-  background: linear-gradient(#a4c8f1, #e979e0);
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  background-color: rgb(188, 166, 236);
-  border: 3px solid rgb(104, 10, 46);
-  border-radius: 10px;
 }
 
- nav {
-  text-align: center;
+body{
+    background-color: #c5e8f4;
+}
+
+h2{
+    font-size: 56px;
+    color: #790f64;
+}
+
+header {
+    background: linear-gradient(#a4c8f1, #e979e0);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(188, 166, 236);
+    border: 3px solid rgb(104, 10, 46);
+    border-radius: 10px;
+}
+
+nav {
+    text-align: center;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 25px;
+    display: inline;
+    margin: 0 25px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 nav ul li a:hover {
-  color: #790f64;
+    color: #790f64;
+}
+
+h3{ 
+    color: #790f64;
+    text-align: center;
+    font-size: 35px;
 }
 
 .about{
-  background-color: rgb(166, 172, 236);
-  line-height: 1;
-  border: 3px solid rgb(104, 10, 46);
-  border-radius: 10px;
+    background-color: rgb(166, 172, 236);
+    line-height: 1;
+    border: 3px solid rgb(104, 10, 46);
+    border-radius: 10px;
 }
 
 .project{
-  background-color: rgb(188, 166, 236);
-  border: 3px solid rgb(104, 10, 46);
-  border-radius: 10px;
+    background-color: rgb(188, 166, 236);
+    border: 3px solid rgb(104, 10, 46);
+    border-radius: 10px;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    border: 2px solid #9b62e1;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #b570c0; /* Dark blue header */
+    color: rgb(39, 6, 52);
+    font-weight: bold;
+}
+
+.contact{
+    background-color: rgb(214, 166, 236);
+    border: 3px solid rgb(104, 10, 46);
+    border-radius: 10px;
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #e24ab7;
+    border-radius: 10px;
+}
+.fieldbox{
+    border: 2px solid #da4fe1;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0 30px 0;
+}
+
+input, label, textarea {
+    margin: auto;
+    
 }
