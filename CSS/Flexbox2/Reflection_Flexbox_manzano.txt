@@ -1,0 +1,1 @@
+With this challenge, surprisingly I have not encountered any difficulties. I was just trying to make it look like the given image. I just first focused on the ones that I know which is the footer and simple edits to fit the image. When I was doing the flexbox one, it was just okay, I was able to make it look like what I wanted. I think it took me 20 mins to solve this.
