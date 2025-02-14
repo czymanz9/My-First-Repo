@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin:20px;
+    padding:50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(62, 83, 243);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
