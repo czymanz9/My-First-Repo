@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: red;
+}
+
+nav{
+    background-color: blue;
+}
+
+.mid{
+    background-color: yellow;
+}
+
+.bottom{
+    background-color: green;
+}
