@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px dotted red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
@@ -28,8 +27,8 @@ nav{
 }
 
 #logo{
-    width:170px;
-    height: 40px;
+    width:150px;
+    height: 35px;
 }
 
 nav ul{
@@ -51,7 +50,7 @@ nav ul li a{
 form{
     display: flex;
     justify-content: flex-end;
-    width: 60%;
+    width: 61%;
 }
 
 ::placeholder{
@@ -75,6 +74,8 @@ form{
     padding: 5px 10px 5px 10px;
     margin: 2px;
     color: #1B75D0;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 .signup{
@@ -84,6 +85,8 @@ form{
     padding: 5px 10px 5px 10px;
     color: rgb(246, 243, 243);
     margin: 2px;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 aside{
@@ -131,7 +134,7 @@ main{
 }
 
 .container{
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     min-height: 600px;
     margin: 0 100px 10px 0;
 }
@@ -199,43 +202,159 @@ main{
 
 .banner-container a{
     font-size: 12px;
-    margin: 20px;
+    margin-right: 20px;
     text-decoration: none;
 }
 
 .forteams{
-    background-color: blue;
-    min-height: 300px;
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
     margin-top:30px;
+    position: relative;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+} 
+
+.forteam{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+h3{
+    color:#444242;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+h5{
+    color: #F48024;
+    width: 10%; 
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+    font-size: 10px;
+}
+.content-text{
+    width: 500px;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.forteams a{
+    font-size: 12px;
+}
+
+.bluebutton{
+    text-decoration: none;
+    border: 1px solid #1B75D0;
+    border-radius: 7px;
+    background-color: #1B75D0;
+    padding: 5px 10px 5px 10px;
+    color: rgb(246, 243, 243);
+    margin-right: 10px;
 }
 
 .ai{
-    background-color: orange;
-    min-height: 300px;
-    margin-top:30px;
+    background-color: #3B4045;
+    min-height: 180px;
+    margin-top:20px;
+    position: relative;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+#ailogo{
+    width:200px;
+    height: 60px;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+.content-textai{
+    width: 50%;
+    font-size: 15px;
+    margin: 10px 0 30px 0;
+}
+
+.orangebutton{
+    text-decoration: none;
+    border: 1px solid #E56F0D;
+    border-radius: 7px;
+    background-color: #E56F0D;
+    padding: 5px 15px 5px 15px;
+    color: rgb(246, 243, 243);
+    font-size: 13px;
+}
+
+.overflowai{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 40%;
 }
 
 .twocontainer{
-    background-color: rgb(0, 15, 128);
-    min-height: 800px;
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
     margin: 0 100px 10px 0;
     display: flex;
     flex-direction: row;
 }
 
+.advertising, .api{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+    padding-right: 0;
+}
+
+.advertising a, .api a{
+    font-size: 12px;
+}
 .advertising{
-    background-color: rgb(115, 0, 128);
-    margin: 10px;
-    width: 50%;
+    margin-right: 10px;
 }
 
+.advertising p{
+    margin-bottom: 43px;
+}
 .api{
-    background-color: rgb(128, 0, 0);
-    margin: 10px;
+    margin-left: 10px;
     width: 50%;
 }
 
+#alogo{
+    width: 160px;
+    height: 30px;
+}
 .career{
-    background-color: rgb(128, 0, 128);
-    min-height: 300px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    margin-top:30px;
+    position: relative;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.career a{
+    font-size: 12px;
+}
+
+.careerimg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
 }
