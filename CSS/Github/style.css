@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+nav{
+    background-color: #25292E;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+.navicon{
+    width: 35px;
+    height: 35px;
+}
+
+nav ul{
+    display: flex;
+    width: 50%; 
+}
+
+nav ul li, .tab ul li{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a, nav ul li select, .tab ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 3px 5px 3px 5px;
+}
+
+nav ul li select{
+    border: none;
+    background-color:  #25292E;
+}
+
+.search{
+    width:30%;
+    padding: 7px 7px 7px 35px;
+    background-color: #25292E;
+    background-image: url(github/icons/svgexport-14.png);
+    background-position: 10px 9px; 
+    background-repeat: no-repeat;
+    position: relative;
+    border: 1px solid rgb(186, 186, 188);
+    border-radius: 5px;
+}
+
+.signin, .signup{
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.signup{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #25292E;
+}
+.slash{
+    position: absolute;
+    right: 250px;
+}
+
+.tab{
+    background-color: #0D1117;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.tab ul{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #0D1117;
+    min-height: 800px;
+    color: #7896A8;
+    position: relative;
+}
+
+.content{
+    background-color: #0D1117;
+    margin: 0 30% 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 18px;
+    color: gray;
+    margin: 10px 0;
+}
+.toprated, .gameengines, .users{
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.gameoff{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.githubicon{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.icon{
+    width: 3%;
+    height: 3%;
+}
+
+.iconlabel{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+h4{
+    color: #4493F8;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.description{
+    margin: 10px;
+    font-size: 13px;
+}
+
+.hashtagbox{
+    display: flex;
+    margin: 0 20px 10px 20px;
+}
+
+.hashtag{
+    width: 20%;
+}
+
+.hashtagcontent a{
+    margin: 10px;
+    color: #4493F8;
+    text-decoration: none;
+    font-size: 12px;
+}
+.users{
+    width: 17%;
+    position: absolute;
+    top: 0;
+    right: 160px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    color: #F1F6FB;
+    background-color: #151B23;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.usericon{
+    width: 15px;
+    height: 15px;
+    margin:  5px 5px 5px 0;
+}
+
+h1{
+    font-size: 12px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.userimg{
+    width: 21%;
+    height: 10%;
+    border: none;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 13px;
+    color: #4594F8 ;
+}
+
+.userdetail{
+    margin: 0 10px;
+}
+
+.userdetail p{
+    font-size: 13px;
+}
+
+.bookdetail{
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 0;
+}
+
+.bookdetail p{
+    font-size: 10px;
+}
+
+.users ul .moredev{
+    list-style: none;
+    margin-top: 10px;
+}
+.users ul li a{
+    margin: 10px;
+    color: #4493F8;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 5px;
+}
+
+footer{
+    background-color: #0D1117;
+    min-height: 60px;
+    display: flex;
+}
