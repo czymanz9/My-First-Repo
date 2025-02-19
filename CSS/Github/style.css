@@ -247,4 +247,23 @@ footer{
     background-color: #0D1117;
     min-height: 60px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    padding: 50px 0;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer ul li{
+    margin: 10px;
+    font-size: 12px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: grey;
 }
