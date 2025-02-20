@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-center{
+    margin: 50px;
+}
+
+.container-fluid{
+    padding-left: 100px;
+}
