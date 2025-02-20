@@ -1,0 +1,22 @@
+/* Default: Desktop Layout */
+.navbtn {
+    background-color: red;
+    width: 22%;
+    margin: 1%;
+  }
+  
+  /* Tablet Layout */
+  @media (max-width: 1023px) {
+    .navbtn {
+      background-color: blue;
+      width: 45%;
+    }
+  }
+  
+  /* Phone Layout */
+  @media (max-width: 480px) {
+    .navbtn {
+      background-color: yellow;
+      width: 100%;
+    }
+  }
