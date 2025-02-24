@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Super Sans', "ITC Avant Garde Gothic", sans-serif;;
+}
+
+body{
+    max-width: 100%;
+    height: auto; 
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: #002056;
+    min-height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    
+}
+
+.logo{
+    width: 11%;
+    padding-left: 60px;
+
+    .smlogo{
+        width: 100%;
+    }
+}
+
+form{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    margin: 0 30px;
+}
+
+.search{
+    height: 100%;
+    width: 100%;
+    padding: 7px 15px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.magnifying{
+    background-color: #F17D21;
+    padding: 6px; 
+    border: none;   
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-content: center;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+    li{
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-right: 20px;
+        border-right: 1px solid rgb(255, 255, 255);
+    
+        a{
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+        
+            img{
+                height: 25px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+.tabs{
+    background-color: #FFFFFF;
+
+    ul{
+        display: flex;
+        padding-left: 1%;
+        padding:  0 1%;
+
+        li{
+            list-style: none;
+            font-size: 0.9rem;
+            margin: 1%;
+        }
+
+            select{
+                font-size: 0.9rem;
+                border: none;
+            }
+
+        a{
+            text-decoration: none;
+            padding: 2px;
+            color: black;
+        }
+    }
+}
+
+.hero{
+    height: auto;
+    max-width: 100%;
+    margin-top: 9%;
+
+    img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+}
+
+.categories, .exclusive{
+    background-color: #FCFCFC;
+    margin: 50px 0;
+}
+
+h3{
+    margin:1% 2%;
+}
+
+.categories ul, .exclusive ul{
+    display: flex;
+    justify-content: center;
+
+    li{
+        list-style: none;
+        margin: 1%;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5%;
+        }
+    }
+}
+
+
+
+.categories img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: none;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.exclusive img{
+    max-width: 200px;
+}
+
+.itemdescription{
+    max-width: 80%;
+    text-align: center;
+
+    p{
+        font-size: 0.8rem;
+        font-weight: lighter;
+    }
+
+    h4{
+        font-size: 0.9rem;
+        padding: 5px 0;
+    }
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    .saving{
+        color:red;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .discount{
+        font-size: 1.2rem;
+        font-weight: lighter;
+
+        .underlined{
+            color: #AAAAAA;
+            text-decoration: line-through;
+            font-size: 0.9rem;
+            margin-top:5px;
+        }
+    }
+}
+
+.delivery{
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    
+    .iconcontainer{
+        margin: 1.5% 5%;
+        display: flex;
+        align-items: center;
+        max-width: 20%;
+
+        img{
+            width:10%;
+            margin: 3%;
+        }
+
+        .icondesc{
+            margin: 2%;
+
+            h5, p{
+                color:#3A2A36;
+                font-size: 0.9rem;
+                margin:5% 2%;
+            }
+        }
+    }
+
+}  
+
+footer{
+    background-color: #333232;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    max-width: 100%;
+}
+
+@media( min-width:1023px ) {
+    main, .categories li, .exclusive li{
+        flex-wrap: wrap;
+    }
+}
