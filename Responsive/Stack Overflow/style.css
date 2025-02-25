@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #FFFFFF;
+    min-height: 60px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 4px solid #E46F0D;
+    border-bottom: 2px solid rgb(196, 195, 195);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 2px 100px 2px 120px;
+}
+
+#logo{
+    width:150px;
+    height: 35px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 10px 27px  10px 27px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    font-size: 13px;
+}
+
+form{
+    display: flex;
+    justify-content: flex-end;
+    width: 61%;
+}
+
+::placeholder{
+    color:#aba6a6;
+    padding-left: 30px;
+}
+
+.search{
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+    width: 79%;
+    
+}
+
+.login{
+    border: 1px solid #1B75D0;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+    color: #1B75D0;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.signup{
+    border: 1px solid #1B75D0;
+    border-radius: 5px;
+    background-color: #1B75D0;
+    padding: 5px 10px 5px 10px;
+    color: rgb(246, 243, 243);
+    margin: 2px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+aside{
+    background-color: #FFFFFF;
+    min-height: 200px;
+    width:22%;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    height: 100%;
+}
+
+aside ul{
+    list-style-type: none;
+    margin: 10% 5% 5% 37%;
+}
+
+aside ul li{
+    margin: 12px;
+    margin-left: 0px;
+    display: flex;
+    align-items: baseline;
+}
+
+aside ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#0C0D0E;
+    display: flex;
+    align-content: baseline;
+}
+
+aside ul li p{
+    font-size: 12px;
+}
+
+.icon{
+    margin:0 5px 0 5px;
+}
+main{
+    background-color: #FFFFFF;
+    margin-left:22%;
+    
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    min-height: 600px;
+    margin: 0 100px 10px 0;
+}
+
+.banner{
+    background-color: #F9FAFA;
+    min-height: 400px;
+    margin: 50px 100px 5px 0;
+    border-radius: 10px;  
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-container{
+    margin: 0 0 10px 50px;
+}
+
+.banner-container h2{
+    font-size: 35px;
+}
+
+.banner-container p{
+    margin: 20px 0 30px 0;
+    font-size: 15px;
+}   
+
+.dev{
+    color:white;
+    font-size: 40px;
+    position: relative;
+    top: 65px;
+    left: 135px;
+    z-index: 1;
+}
+
+.txtbackground{
+    position:relative;
+    top:10px;
+    height: 50px;
+}
+
+
+.bannerimg{
+    width: 50%;
+}
+
+.bannerphoto{
+    height: 280px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+    top: 120px;
+    bottom: 0;
+    padding-right: 50px;
+}
+
+.signup2{
+    border: 1px solid #1B75D0;
+    border-radius: 5px;
+    background-color: #1B75D0;
+    padding: 10px;
+    color: rgb(246, 243, 243);
+    margin: 2px;
+}
+
+.banner-container a{
+    font-size: 12px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.forteams{
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+    margin-top:30px;
+    position: relative;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+} 
+
+.forteam{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+h3{
+    color:#444242;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+h5{
+    color: #F48024;
+    width: 10%; 
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+    font-size: 10px;
+}
+.content-text{
+    width: 500px;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.forteams a{
+    font-size: 12px;
+}
+
+.bluebutton{
+    text-decoration: none;
+    border: 1px solid #1B75D0;
+    border-radius: 7px;
+    background-color: #1B75D0;
+    padding: 5px 10px 5px 10px;
+    color: rgb(246, 243, 243);
+    margin-right: 10px;
+}
+
+.ai{
+    background-color: #3B4045;
+    min-height: 180px;
+    margin-top:20px;
+    position: relative;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+#ailogo{
+    width:200px;
+    height: 60px;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+.content-textai{
+    width: 50%;
+    font-size: 15px;
+    margin: 10px 0 30px 0;
+}
+
+.orangebutton{
+    text-decoration: none;
+    border: 1px solid #E56F0D;
+    border-radius: 7px;
+    background-color: #E56F0D;
+    padding: 5px 15px 5px 15px;
+    color: rgb(246, 243, 243);
+    font-size: 13px;
+}
+
+.overflowai{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 40%;
+}
+
+.twocontainer{
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+    margin: 0 100px 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.advertising, .api{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+    padding-right: 0;
+}
+
+.advertising a, .api a{
+    font-size: 12px;
+}
+.advertising{
+    margin-right: 10px;
+}
+
+.advertising p{
+    margin-bottom: 43px;
+}
+.api{
+    margin-left: 10px;
+    width: 50%;
+}
+
+#alogo{
+    width: 160px;
+    height: 30px;
+}
+.career{
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    margin-top:30px;
+    position: relative;
+    border: 1px solid rgb(180, 185, 190);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.career a{
+    font-size: 12px;
+}
+
+.careerimg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
