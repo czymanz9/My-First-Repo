@@ -122,5 +122,24 @@ console.log(Object.keys(person)); // ["name", "age"]
 console.log(Object.values(person)); // ["Alice", 28]
 
 // Get key-value pairs
-console.log(Object.entries(person)); // [["name", "Alice"], ["age", 28]]
+console.log(Object.entries(person)); // [["name", "Alice"], ["age", 28]}
+
+//----Switches
+let day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("Today's special is a free croissant with any coffee!");
+        break;
+    case "Wednesday":
+        console.log("Enjoy half-price lattes today!");
+        break;
+    case "Friday":
+        console.log("Free cookie with every sandwich!");
+        break;
+    default:
+        console.log("Check back tomorrow for new specials.");
+}
+
+//
 
