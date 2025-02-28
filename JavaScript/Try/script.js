@@ -54,7 +54,7 @@ person.city = "New York";
 console.log(person.city); // New York
 
 //---Arrays
-let fruits = ["apple", "banana", "cherry"];
+//let fruits = ["apple", "banana", "cherry"];
 
 //Accessing elements
 console.log(fruits[0]); // apple
@@ -67,7 +67,7 @@ console.log(fruits); // ["apple", "banana", "cherry", "orange"]
 fruits.pop(); // Removes the last element
 console.log(fruits); // ["apple", "banana", "cherry"]
 
-//--Anoda Array
+//--Another Array
 let colors = ["Red", "Blue", "Green", "Yellow"];
 console.log(colors[0]); // Outputs: Red
 console.log(colors[2]); // Outputs: Green
