@@ -23,4 +23,18 @@ for(let i = 0; i < nums.length; i++){
 };
 
 //Task 4
+for(let row = 1; row <= 5; row++){
+    let star = "";
+    for(let col = 1; col <= row; col++){
+        star += "* "
+    };
 
+    console.log(star);
+};
+
+//Task 5
+let arr = [2,4,6,8,10];
+
+for (let i = arr.length - 1; i >= 0; i--) {
+    console.log(`Reversed Element: ${arr[i]}`);
+};
