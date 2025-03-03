@@ -1,0 +1,81 @@
+------------------------Task 1 -------------------------
+           Variable                            Value
+				---------------------------------------
+calculateSum(arr)		Variable       		Value
+				sum			0 -> 1 -> 3 -> 6 -> 10					i			0 -> 1 -> 2 -> 3
+				arr.length		4
+				sum			sum += arr[i]						----------------------------------------
+					
+numbers				[1, 2, 3, 4]		
+
+Output:
+= Sum: 10
+
+------------------------Task 2 -------------------------
+           Variable                            Value
+				---------------------------------------
+isEven(num)			Variable       		Value
+				num % 2 === 0		true
+				num % 2 !== 0		false
+				-----------------------------------------
+
+num				4
+				7
+				0		
+				
+Output:
+= true
+= false
+= true
+
+------------------------Task 3 -------------------------
+Variable                            Value
+				---------------------------------------
+greet(name)			Variable       		Value
+				
+				-----------------------------------------
+personalizedGreeting(names)	Variable       		Value
+				names == friends		["Alice", "Bob", "Charlie"]
+				i 			0 -> 1 -> 2
+				names.length		3
+							------------------------
+				greet(names[i])		Variable      	Value
+							name		names[i]							------------------------
+				-----------------------------------------
+
+friends				["Alice", "Bob", "Charlie"]
+
+Ouput:
+= Hello, Alice!
+= Hello, Bob!
+= Hello, Charlie!
+------------------------Task 4 -------------------------
+Variable                            Value
+				---------------------------------------
+reverseArray(arr) 		Variable       		Value
+				reversed		[]
+				i			2 -> 1 -> 0
+				arr.length		3
+				---------------------------------------
+originalArray			[10, 20, 30]
+arr == originalArray		[10, 20, 30]
+
+Output:
+= [30, 20, 10]
+= [10, 20, 30]
+
+------------------------Task 5 -------------------------
+Variable                            Value
+				---------------------------------------
+multiplyMatrix(matrix) 		Variable       		Value
+				i			0 -> 1
+				matrix.length		2
+				j			0 -> 1
+				matrix [i].length	2
+				matrix   		matrix[i][j] *= 2	
+				---------------------------------------
+matrix				[1, 2], [3, 4]
+
+Output:
+=
+

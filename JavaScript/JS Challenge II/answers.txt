@@ -1,0 +1,48 @@
+Predict the output
+------------------------------Task 1 ----------------------------
+           Variable                               Value
+inventory			["apple", "banana", "cherry", "date", "elderberry"]
+inventoryCount			[10, 15, 5, 20, 7]
+i				0 -> 1 -> 2 -> 3 -> 4 (since i < inventory.length(5))
+length				5
+
+Output:
+= apple: 10
+= banana: 15
+= cherry: 5
+= date: 20
+= elderberry: 7
+
+------------------------------Task 2 ----------------------------
+           Variable                               Value	
+words				["zebra", "apple", "mango", "cherry", "banana"]
+i				0 -> 1 -> 2 -> 3 -> 4 (since i < words.length(5))
+length				5
+j				i + 1 (compare each element)
+temp				to swap values
+
+
+Output:
+= [ 'apple', 'banana', 'cherry', 'mango', 'zebra' ]
+
+------------------------------Task 3 ----------------------------
+           Variable                               Value
+uniqueNumbers			[] (stores the numbers)
+while				loops until uniqueNumbers has 10 elements
+randomNumber			Generates random number from 1-20
+exists				false (no duplicate, added to the array) true(has 				duplicate, not added to the array)
+
+Output:
+= [ 2,  5, 15, 10, 18, 7, 20,  4,  3, 12]
+
+------------------------------Task 4 ----------------------------
+           Variable                               Value
+sideA				7
+sideB				10
+sideC				5
+if 				true = valid triangle, false = not valid triangle
+
+Output:
+= The sides 7, 10, and 5 form a valid triangle.
+
+
