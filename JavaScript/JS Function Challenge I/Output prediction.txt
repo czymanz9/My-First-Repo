@@ -74,8 +74,8 @@ multiplyMatrix(matrix) 		Variable       		Value
 				matrix [i].length	2
 				matrix   		matrix[i][j] *= 2	
 				---------------------------------------
-matrix				[1, 2], [3, 4]
+matrix				[ [1, 2], [3, 4] ]
 
 Output:
-=
+= [ [ 2, 4 ], [ 6, 8 ] ]
 

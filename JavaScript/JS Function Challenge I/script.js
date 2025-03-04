@@ -1,4 +1,5 @@
-// Task 1
+// ------------Task 1
+//Predicted Output: Sum: 10
 function calculateSum(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -10,7 +11,11 @@ function calculateSum(arr) {
 let numbers = [1, 2, 3, 4];
 console.log("Sum:", calculateSum(numbers));
 
-//Task 2
+//-------------Task 2
+//Predicted Output: true
+//                  false
+//                  true
+
 function isEven(num) {
     if (num % 2 === 0) {
         return true;
@@ -23,7 +28,10 @@ console.log(isEven(4));
 console.log(isEven(7));
 console.log(isEven(0));
 
-//Task 3
+//-------------Task 3
+//Predicted Output: = Hello, Alice!
+//                    Hello, Bob!
+//                    Hello, Charlie!
 function greet(name) {
     return "Hello, " + name + "!";
 }
@@ -37,7 +45,9 @@ function personalizedGreeting(names) {
 let friends = ["Alice", "Bob", "Charlie"];
 personalizedGreeting(friends);
 
-//Task 4
+//-------------Task 4
+//Predicted Output:  = [30, 20, 10]
+//                     [10, 20, 30]
 function reverseArray(arr) {
     let reversed = [];
     for (let i = arr.length - 1; i >= 0; i--) {
@@ -50,7 +60,8 @@ let originalArray = [10, 20, 30];
 console.log(reverseArray(originalArray));
 console.log(originalArray);
 
-//Task 5
+//-------------Task 5
+//Predicted Output: [ [ 2, 4 ], [ 6, 8 ] ]
 function multiplyMatrix(matrix) {
     for (let i = 0; i < matrix.length; i++) {
         for (let j = 0; j < matrix[i].length; j++) {

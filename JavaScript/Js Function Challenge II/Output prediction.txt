@@ -1,0 +1,76 @@
+------------------------Task 1 -------------------------
+           Variable                            Value
+				---------------------------------------
+generatePattern()			Variable       		Value
+							result			""
+							i			1 -> 2 -> 3						
+							j			1
+										1 -> 2
+										1 -> 2 -> 3
+							result			result += j + ""
+							result			result += "\n";						
+				----------------------------------------	
+
+Output:
+= 1
+= 1 2
+= 1 2 3 
+
+------------------------Task 2 -------------------------
+           Variable                            Value
+				---------------------------------------
+swapFirstLast(arr)		Variable       		Value
+				first			arr.shift() -> 10
+				last			arr.pop() -> 40
+				arr.unshift(last)	insert last to [0]
+				arr.push(first)		insert first to the end
+				-----------------------------------------
+numbers				[10, 20, 30, 40]
+				
+Output:
+= [40, 20, 30, 10]
+= [10, 20, 30, 40]
+
+------------------------Task 3 -------------------------
+Variable                            Value
+				---------------------------------------
+filterPassingGrades(grades)	Variable       		Value
+				passing			[]
+				grade			85 -> 45 -> 90 -> 60
+				passing.push(grade)	grade >= 70
+				passing.unshift(grade)	grade < 70
+				-----------------------------------------
+scores				[85, 45, 90, 60]
+
+Output:
+= [60,45,85, 90]
+------------------------Task 4 -------------------------
+Variable                            Value
+				---------------------------------------
+updateStatus(tasks)		Variable       			Value
+				task			taskList		
+				task.completed = !task.completed	true -> false
+								 	false -> true
+				---------------------------------------
+taskList			[{ id: 1, completed: false },
+				{ id: 2, completed: true }]
+
+Output:
+= [ { id: 1, completed: true }, { id: 2, completed: false } ]
+= [ { id: 1, completed: true }, { id: 2, completed: false } ]
+
+
+------------------------Task 5 -------------------------
+Variable                            Value
+				---------------------------------------
+findValue(arr, target) 		Variable       		Value
+				i			0 -> 1 -> 2 -> 3 -> 4
+				arr.length		5
+				arr[i] === target	loops until true or it ends
+				---------------------------------------
+data				[5, 12, 8, 130, 44]
+
+Output:
+= Found at index 1
+= Not found
+
