@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin:20px;
+    padding:50px;
+    border: 1px solid #d0d0d0;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(62, 83, 243);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+form{
+    display: flex;
+    margin-top: 40px; 
+    margin-bottom: 30px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+}
+
+input{  
+    flex: 1;
+    align-items: flex-start;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff; 
+    background-color: rgb(77, 137, 228);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button2{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff; 
+    background-color: rgb(228, 77, 77);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgb(210, 225, 249);
+}
+
+#assignment{
+    background-color: rgb(161, 219, 164);
+}
