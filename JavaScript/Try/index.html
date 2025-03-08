@@ -9,5 +9,64 @@
     <h1>Welcome to JavaScript</h1>
     <button id="clickMe">Click Me</button>
     <script src="script.js"></script>
+
+<!-- innerText -->
+        <!-- HTML -->
+<!--     <p id="demoText">Original text.</p>
+    <button onclick="changeTextInnerText()">Change Text with innerText</button>
+
+    <script>
+    function changeTextInnerText() {
+        // Select the element by its ID and update its visible text.
+        document.getElementById("demoText").innerText = "Text updated using innerText!";
+        // Explanation: innerText changes only the visible text content.
+    }
+    </script> -->
+
+<!-- textContent -->
+    <!-- HTML -->
+<!--     <p id="demoTextContent">Original text content.</p>
+    <button onclick="changeTextContent()">Change Text with textContent</button>
+
+    <script>
+    function changeTextContent() {
+        // Select the element by its ID and update its text content.
+        document.getElementById("demoTextContent").textContent = "Text updated using textContent!";
+        // Explanation: textContent includes hidden text as well.
+    }
+    </script> -->
+
+<!-- innerHTML -->
+<!-- HTML -->
+<!-- <div id="demoHTML">This is a <em>simple</em> div.</div>
+<button onclick="changeInnerHTML()">Change Content with innerHTML</button>
+
+<script>
+    function changeInnerHTML() {
+        // Select the element by its ID and replace its HTML content.
+        document.getElementById("demoHTML").innerHTML = "<strong>HTML content</strong> updated!";
+        // Explanation: innerHTML can insert new HTML elements. Use with caution to avoid security risks.
+    }
+    </script> -->
+
+    <!-- Use Css Classes for Better Styling -->
+        <!-- HTML -->
+    <style>
+        .highlight {
+        background-color: yellow;
+        font-weight: bold;
+        }
+    </style>
+    
+    <p id="text">Click the button to toggle highlight.</p>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    
+    <script>
+        function toggleHighlight() {
+        // Toggle the 'highlight' class on the paragraph
+        document.getElementById("text").classList.toggle("highlight");
+        // Explanation: classList.toggle() adds the class if it's not present, or removes it if it is.
+        }
+    </script>
 </body>
 </html>
