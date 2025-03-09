@@ -1,0 +1,12 @@
+1.Click a color button. What happens?
+	- When I clicked the color button, it shows two alerts, first is the "You clicked the red button" and then the "You clicked the container". I am however, confused as the background never changed color.
+
+2.Uncomment event.stopPropagation(); inside the button click handler.
+3.Click a color button again. What changed?
+	- The difference is that it only showed one alert, which is the alert when the button is pressed.
+
+4.Explain in your own words why event.stopPropagation() is useful in this example.
+	- I think its useful when two event listeners are used in the parent and child element. So that it doesn't trigger the other, just the one the user really intentionally triggered.
+
+
+
