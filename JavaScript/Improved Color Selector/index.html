@@ -34,31 +34,53 @@
         }
     </style>
 </head>
-<body>
+<body id="contentBody">
 
 <!-- I set the style for the BG color to inline CSS because I want to see the code run correctly on my end. -->
     <h1>Color Selector</h1>
     <p>Click a color to change the background.</p>
     <div id="container">
-        <button class="color-box" style="background-color: red; ">Red</button>
-        <button class="color-box blue" style="background-color: blue;">Blue</button>
-        <button class="color-box green" style="background-color: green; ">Green</button>
-        <button class="color-box yellow" style="background-color: yellow;">Yellow</button>
+        <div id="subcontainer">
+            <button class="color-box" style="background-color: red; color:white">Red</button>
+            <button class="color-box blue" style="background-color: blue; color:white">Blue</button>
+        </div>
+        <button class="color-box green" style="background-color: green; color:white">Green</button>
+        <div id="subcontainer">
+            <button class="color-box yellow" style="background-color: orange; color:white">Orange</button>
+            <button class="color-box yellow" style="background-color: purple; color:white">Purple</button>
+        </div>
+        <button class="color-box yellow" style="background-color: yellow; color: black;">Yellow</button>
+    </div>
+    <div >
+        <h2 id="message">Selected Color: None</h2>
     </div>
 
     <script>
         document.getElementById("container").addEventListener("click", function() {
-            alert("You clicked the container!");
-
+           // alert("You clicked the container!");
             // "this" refers to the element that triggered the event (in this case, #container)
             this.style.backgroundColor = "lightgray"; 
+            document.getElementById("contentBody").style.backgroundColor = "white";
+            var messageContainer = document.getElementById("message");
+            messageContainer.innerText = `Selected Color: None`;
         });
 
+/* Added an if else for the colors of the text since I noticed that when the yellow button is pressed, the text color is black while if its different colors
+its white. I also used innerText to update what color the user is clicking. */
         document.querySelectorAll(".color-box").forEach(button => {
             button.addEventListener("click", function(event) {
                 event.stopPropagation(); // Uncomment this to see the difference
                 document.getElementById("container").style.backgroundColor = this.style.backgroundColor;
-                alert("You clicked the " + this.textContent + " button!");
+                if(this.textContent == "yellow"){
+                    document.getElementById("contentBody").style.color = this.style.color;
+                }else{
+                    document.getElementById("contentBody").style.color = this.style.color;
+                }
+                document.getElementById("contentBody").style.backgroundColor = this.style.backgroundColor;
+               // alert("You clicked the " + this.textContent + " button!");
+
+                var messageContainer = document.getElementById("message");
+                messageContainer.innerText = `Selected Color: ${this.textContent}`;
             });
         });
     </script>
