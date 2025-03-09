@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <meta charset="utf-8">
+        <meta name ="Description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Character Selection</title>
+        <link rel="stylesheet" href="style.css">
+        <script src ="script.js" defer></script>
     </head>
     <body>
+        <main style="background-image: url(valo/background.jpg);">
+            <!-- Vidoes -->
+            <video id="videoBg" class="videoBg" loop autoplay>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
+            <section id="selectAgent">
+                <h2>Select Agent</h2>
+                <div class="agentSelect">
+                    <img id="agentBrim" class="agentIcon" src="valo/Brimstone-icon.png" alt="brimstone icon"
+                    data-name ="Brimstone"
+                    data-desc ="Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander."
+                    data-agentImg="valo/Brimstone_Artwork_Full.webp"
+                    data-video="valo/Brim.mp4">
+
+                    <img id="agentJett" class="agentIcon" src="valo/Jett-icon.png" alt="jett icon"
+                    data-name ="Jett"
+                    data-desc ="Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them."
+                    data-agentImg ="valo/Jett_Artwork_Full.webp"
+                    data-video="valo/Jett.mp4">
+                </div>
+                <div class="agentSelect">
+                    <img id="agentSova" class="agentIcon" src="valo/Sova-icon.png" alt="sova icon"
+                    data-name ="Sova"
+                    data-desc ="Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide."
+                    data-agentImg ="valo/Sova_Artwork_Full.webp"
+                    data-video="valo/Sova2.mp4">
+
+                    <img id="agentOmen" class="agentIcon" src="valo/Omen-icon.png" alt="omen icon"
+                    data-name ="Omen"
+                    data-desc ="A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next."
+                    data-agentImg ="valo/Omen_Artwork_Full.webp"
+                    data-video="valo/Omen.mp4">
+                </div>
+            </section>
+            <section id="agentInfo">
+                <img id="agentImg" src="valo/yoru_shadow.png" alt="agentImg">
+                <h3 id="agentName">Select an Agent</h3>
+                <p id="agentDesc"></p>
+            </section>
+        </main>
     </body>
 </html>
