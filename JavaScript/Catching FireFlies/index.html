@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Fireflies</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: white;
+        }
+        .firefly {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catch the Fireflies!</h1>
+    <img src="https://i.gifer.com/W03F.gif" class="firefly">
+    <img src="https://i.gifer.com/W03F.gif" class="firefly">
+    <img src="https://i.gifer.com/W03F.gif" class="firefly">
+    <img src="https://i.gifer.com/W03F.gif" class="firefly">
+
+    <script>
+        // Select all fireflies
+        let fireflies = document.querySelectorAll(".firefly");
+
+        // Attach event listener to each firefly
+        fireflies.forEach(firefly => {
+            firefly.style.transition = "transform 0.2s ease";//for the transitioning
+
+            firefly.addEventListener("click", function() {
+                this.style.transform = "scale(0.5)"; // Shrink the firefly
+
+                setTimeout(() => {
+                    this.style.visibility = "hidden"; //hide after the transition of 0.2s
+                }, 200);
+
+                setTimeout(() => {
+                    this.style.visibility = "visible";
+                    this.style.transform = "scale(1)";  // return to normal size
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>
