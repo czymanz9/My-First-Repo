@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8">
+        <meta name ="Description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Character Builder</title>
+        <link rel="stylesheet" href="style.css">
+        <script src ="script.js" defer></script>
     </head>
     <body>
-        
+        <main>
+            <h1>Character Builder</h1>
+            <section id="userCharac">
+                <img id="characHelmet" src="minecraftAssets/Arctic_Hood.png" alt="selected helmet">
+                <img id="characArmor" src="minecraftAssets/Arctic_Jacket.png" alt="selected armor">
+                <img id="characLeggings" src="minecraftAssets/Arctic_Leggings.png" alt="selected leggings">
+                <img id="characBoots" src="minecraftAssets/Arctic_Boots.png" alt="selected boots">
+            </section>
+            <h4>Select Your Helmet </h4>
+            <section id="helmet">
+                <img class="selectHelmet" src="minecraftAssets/Arctic_Hood.png" data-helmet="minecraftAssets/Arctic_Hood.png" alt="arctic hood">
+                <img class="selectHelmet" src="minecraftAssets/Fiery_Helmet.png" data-helmet="minecraftAssets/Fiery_Helmet.png" alt="fiery helmet">
+                <img class="selectHelmet" src="minecraftAssets/Iron_Helmet.png" data-helmet="minecraftAssets/Iron_Helmet.png" alt="iron helmet">
+                <img class="selectHelmet" src="minecraftAssets/Ironwood_Helmet.png" data-helmet="minecraftAssets/Ironwood_Helmet.png" alt="iron wood helmet">
+                <img class="selectHelmet" src="minecraftAssets/Knightmetal_Helmet.png" data-helmet="minecraftAssets/Knightmetal_Helmet.png" alt="knight metal helmet">
+                <img class="selectHelmet" src="minecraftAssets/Phantom_Helmet.png" data-helmet="minecraftAssets/Phantom_Helmet.png" alt="phantom helmet">
+                <img class="selectHelmet" src="minecraftAssets/Steeleaf_Helmet.png" data-helmet="minecraftAssets/Steeleaf_Helmet.png" alt="steel leaf helmet">
+                <img class="selectHelmet" src="minecraftAssets/Yeti_Horned_Helm.png" data-helmet="minecraftAssets/Yeti_Horned_Helm.png" alt="yeti horned helm">
+            </section>
+            <h4>Select Your Armor </h4>
+            <section id="armor">
+                <img class="selectArmor" src="minecraftAssets/Arctic_Jacket.png" data-armor="minecraftAssets/Arctic_Jacket.png" alt="arctic jacket">
+                <img class="selectArmor" src="minecraftAssets/Fiery_Chestplate.png" data-armor="minecraftAssets/Fiery_Chestplate.png" alt="fiery chestplate">
+                <img class="selectArmor" src="minecraftAssets/Ironwood_Chestplate.png" data-armor="minecraftAssets/Ironwood_Chestplate.png" alt="iron wood chestplate">
+                <img class="selectArmor" src="minecraftAssets/Knightmetal_Chestplate.png" data-armor="minecraftAssets/Knightmetal_Chestplate.png" alt="knight metal chestplate">
+                <img class="selectArmor" src="minecraftAssets/Naga_Scale_Tunic.png" data-armor="minecraftAssets/Naga_Scale_Tunic.png" alt="naga scale tunic">
+                <img class="selectArmor" src="minecraftAssets/Phantom_Chestplate.png" data-armor="minecraftAssets/Phantom_Chestplate.png" alt="phantom chestplate">
+                <img class="selectArmor" src="minecraftAssets/Steeleaf_Chestplate.png" data-armor="minecraftAssets/Steeleaf_Chestplate.png" alt="steel leaf chestplate">
+                <img class="selectArmor" src="minecraftAssets/Yeti_Jacket.png" data-armor="minecraftAssets/Yeti_Jacket.png" alt="yeti jacket">
+            </section>
+            <h4>Select Your Leggings</h4>
+            <section id="leggings">
+                <img class="selectLeggings" src="minecraftAssets/Arctic_Leggings.png" data-leggings="minecraftAssets/Arctic_Leggings.png" alt="arctic leggings">
+                <img class="selectLeggings" src="minecraftAssets/Fiery_Leggings.png" data-leggings="minecraftAssets/Fiery_Leggings.png" alt="fiery leggings">
+                <img class="selectLeggings" src="minecraftAssets/Ironwood_Leggings.png" data-leggings="minecraftAssets/Ironwood_Leggings.png" alt="iron wood leggings">
+                <img class="selectLeggings" src="minecraftAssets/Knightmetal_Greaves.png" data-leggings="minecraftAssets/Knightmetal_Greaves.png" alt="knight metal greaves">
+                <img class="selectLeggings" src="minecraftAssets/Naga_Scale_Leggings.png" data-leggings="minecraftAssets/Naga_Scale_Leggings.png" alt="naga scale leggings">
+                <img class="selectLeggings" src="minecraftAssets/Steeleaf_Leggings.png" data-leggings="minecraftAssets/Steeleaf_Leggings.png" alt="steel leaf leggings">
+                <img class="selectLeggings" src="minecraftAssets/Yeti_Leggings.png" data-leggings="minecraftAssets/Yeti_Leggings.png" alt="yeti leggings">
+            </section>
+            <h4>Select Your Boots</h4>
+            <section id="boots">
+                <img class="selectBoots" src="minecraftAssets/Arctic_Boots.png" data-boots="minecraftAssets/Arctic_Boots.png" alt="arctic boots">
+                <img class="selectBoots" src="minecraftAssets/Fiery_Boots.png" data-boots="minecraftAssets/Fiery_Boots.png" alt="fiery boots">
+                <img class="selectBoots" src="minecraftAssets/Ironwood_Boots.png" data-boots="minecraftAssets/Ironwood_Boots.png" alt="iron wood boots">
+                <img class="selectBoots" src="minecraftAssets/Knightmetal_Boots.png" data-boots="minecraftAssets/Knightmetal_Boots.png" alt="knight metal boots">
+                <img class="selectBoots" src="minecraftAssets/Steeleaf_Boots.png" data-boots="minecraftAssets/Steeleaf_Boots.png" alt="steel leaf boots">
+                <img class="selectBoots" src="minecraftAssets/Yeti_Boots.png" data-boots="minecraftAssets/Yeti_Boots.png" alt="yeti boots">
+            </section>
+        </main>
     </body>
 </html>
