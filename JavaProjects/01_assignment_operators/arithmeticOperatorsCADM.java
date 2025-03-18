@@ -1,19 +1,11 @@
-public class arithmeticOperatorsCADM{
+public class arithmeticOperatorsCADM {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        int c = 25;
-        int d = 25;
+        double num1 = 5.15;
+        double num2 = 10.50;
 
-        System.out.println("a + b = " + (a + b));
-        System.out.println("a - b = " + (a - b));
-        System.out.println("a * b = " + (a * b));
-        System.out.println("b / a = " + (b / a));
-        System.out.println("b % a = " + (b % a));
-        System.out.println("c % a = " + (c % a));
-        System.out.println("a++   = " + (a++));
-        System.out.println("b--   = " + (a--));
-        System.out.println("d++   = " + (d++));
-        System.out.println("++d   = " + (++d));
+        System.out.println("Addition: " + num1 + " + " + num2 + " = " + (num1 + num2));
+        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + (num1 - num2));
+        System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + (num1 * num2));
+        System.out.println("Division: " + num2 + " / " + num1 + " = " + (num2 / num1));
     }
 }
