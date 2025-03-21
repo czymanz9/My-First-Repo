@@ -13,7 +13,6 @@ public class RockPaperScissorsCADM {
         // check if user input is valid
         if (!userChoice.equals("R") && !userChoice.equals("P") && !userChoice.equals("S")) {
             System.out.println("Invalid choice!");
-            return;
         }
 
         // computer choice
